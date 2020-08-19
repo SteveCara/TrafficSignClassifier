@@ -49,7 +49,7 @@ I then fit the model.
 
 ## Model Performance
 
-I created plots to show how the loss and accuracy changed over time as the model was trained and generated a confusion matrix to visualise model performance. 
+I created plots to show how the loss and accuracy changed over time as the model was trained and generated a confusion matrix to visualise model performance. The charts are below. (The images can take some time to load, if they don't appear please see the images folder).  
 
 ![](images/ConfusionMatrix.PNG)
 ![](images/TrainAndValAccuracy.PNG)
