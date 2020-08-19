@@ -34,7 +34,7 @@ I pre-processed the images for improved compatibility with the model. This consi
 
 ## Model Building
 
-I compiled and trained a deep convolutional neural network model using Keras. I compiled the model using the 'Adam' optimiser and a learning rate of 0.0001 using a 'Sequential' approach with the following layers.  
+I compiled and trained a deep convolutional neural network model using Keras. I compiled the model using the 'Adam' optimiser and a learning rate of 0.0001 using a 'Sequential' approach with the following layer structure.  
 
 - **convolutional layer**
 - **pooling layer**
@@ -51,7 +51,9 @@ I then fit the model.
 
 I created plots to show how the loss and accuracy changed over time as the model was trained and generated a confusion matrix to visualise model performance. 
 
-
+![](images/ConfusionMatrix.PNG)
+![](images/TrainAndValAccuracy.PNG)
+![](images/TrainAndValLosses.PNG)
 
 The model performed very well and was able to generate predictions with an accuracy of 98%. I used the model to generate predictions for traffic signs. 
  
